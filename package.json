@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      "react-native-getui@1.1.19",
+      "/Users/Jason/Work/moguManufacturer"
+    ]
+  ],
+  "_from": "react-native-getui@1.1.19",
+  "_id": "react-native-getui@1.1.19",
+  "_inBundle": false,
+  "_integrity": "sha1-qoE4ZG407ouScd8fSal4LwRXhT8=",
+  "_location": "/react-native-getui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-getui@1.1.19",
+    "name": "react-native-getui",
+    "escapedName": "react-native-getui",
+    "rawSpec": "1.1.19",
+    "saveSpec": null,
+    "fetchSpec": "1.1.19"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-getui/download/react-native-getui-1.1.19.tgz",
+  "_spec": "1.1.19",
+  "_where": "/Users/Jason/Work/moguManufacturer",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/GetuiLaboratory/react-native-getui/issues"
+  },
+  "dependencies": {},
+  "description": "Getui push sdk plugin for rect-native",
+  "homepage": "https://github.com/GetuiLaboratory/react-native-getui#readme",
+  "keywords": [
+    "react",
+    "native",
+    "push",
+    "getui"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-getui",
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GetuiLaboratory/react-native-getui.git"
+  },
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "libz",
+        "libc++",
+        "libsqlite3",
+        "Security",
+        "MobileCoreServices",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "AVFoundation",
+        "JavaScriptCore",
+        "UserNotifications",
+        "CoreLocation",
+        "AdSupport",
+        "CoreFoundation",
+        "Foundation",
+        "UIKit"
+      ]
+    }
+  },
+  "scripts": {
+    "postinstall": "node postInstall.js"
+  },
+  "version": "1.1.19"
+}
