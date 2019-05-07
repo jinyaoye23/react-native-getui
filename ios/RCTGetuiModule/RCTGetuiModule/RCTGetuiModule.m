@@ -39,6 +39,10 @@
 RCT_EXPORT_MODULE();
 @synthesize bridge = _bridge;
 
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
 - (instancetype)init
 {
     self = [super init];
